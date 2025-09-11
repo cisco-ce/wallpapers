@@ -69,9 +69,13 @@ main {
   gap: 25px;
 }
 
-.intro {
+.intro, .intro-laptop {
   opacity: 0.7;
   line-height: 1.4em;
+}
+
+.intro-laptop {
+  display: none; /* hide on mobile */
 }
 
 .wallpapers {
@@ -96,4 +100,32 @@ main {
 .poster {
   max-height: 300px;
   object-fit: contain;
+}
+
+
+/** Overrides for non-mobile platform */
+
+@media screen and (min-width: 600px) {
+
+  .poster {
+    display: none;
+  }
+
+  .intro-laptop {
+    display: block;
+  }
+
+  .intro {
+    display: none;
+  }
+
+  .wallpapers {
+    overflow: initial;
+    flex-wrap: wrap;
+  }
+
+  .wallpapers img {
+    width: 130px;
+    height: auto;
+  }
 }
