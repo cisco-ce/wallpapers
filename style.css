@@ -86,14 +86,7 @@ main {
   position: relative;
   width: 70vw;
   height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
   flex-shrink: 0;
-  background-image: url('./wallpapers/sunflower.jpg');
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-radius: 20px;
-  padding: 20px;
 }
