@@ -103,6 +103,18 @@ a {
   border-radius: 20px;
   margin-top: 20px;
   border: 1px solid rgba(255, 255, 255, 0.16);
+  cursor: pointer;
+}
+
+img.fullscreen {
+  position: fixed;
+  top: -2px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  margin: 0;
+  border-radius: 0;
 }
 
 .poster {
