@@ -78,15 +78,23 @@ main {
   display: none; /* hide on mobile */
 }
 
+a {
+  font: inherit;
+  color: inherit;
+}
+
 .wallpapers {
   position: relative;
   overflow-x: auto;
   display: flex;
   gap: 20px;
-  padding-bottom: 20px;;
+  padding-bottom: 20px;
+  scroll-snap-type: x mandatory;
 }
 
 .wallpapers img {
+  scroll-snap-align: start;
+  scroll-margin: 20px;
   position: relative;
   width: min(70vw, 400px);
   height: 500px;
