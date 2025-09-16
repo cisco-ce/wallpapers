@@ -147,5 +147,7 @@ img.fullscreen {
   .wallpapers img {
     width: 130px;
     height: auto;
+    pointer-events: none;
+    cursor: default;
   }
 }
