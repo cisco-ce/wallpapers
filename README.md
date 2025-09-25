@@ -1,10 +1,7 @@
-# TODO
+# Mobile wallpapers for Cisco RoomOS 26
 
-- Page style
-  - Get cisco font
+A set of beautiful RoomOS 26-themed wallpapers for your smart phone.
 
-- Add 12 images (placholders)
-- Test if it works to download zip on iphone
-- Add image names
-- Horizonal Scrollable
-- Download button
+Tap a wallpaper to preview it.
+
+To install it, long press and download to your photos, then open it and set it as wallpaper.
